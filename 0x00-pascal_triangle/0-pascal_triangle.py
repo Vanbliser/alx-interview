@@ -12,7 +12,7 @@ def pascal_triangle(n):
         n (int): you can assume n will be an integer
 
     Returns:
-        list: a list of list of integers representing the Pascal’s 
+        list: a list of list of integers representing the Pascal’s
               triangle of n.
     """
 
@@ -21,7 +21,7 @@ def pascal_triangle(n):
     elif n == 1:
         return [[1]]
     elif n == 2:
-        return [[1], [1,1]]
+        return [[1], [1, 1]]
     else:
         triangle = pascal_triangle(n-1)
         previous_row = triangle[-1]
