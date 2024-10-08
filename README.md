@@ -1,1 +1,3 @@
-## 0x00. Pascal's Triangle
+### ALX-INTERVIEW
+
+This repo contains popular software engineering questions
