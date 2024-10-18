@@ -13,7 +13,7 @@ def isWinner(x, num):
         string: name of the player that won the most rounds
                 If the winner cannot be determined, return None
     """
-    
+
     if not num or x < 1:
         return None
 
@@ -30,8 +30,8 @@ def isWinner(x, num):
     primes[0] = primes[1] = False
 
     prime_count = 0
-    for i in range(len(primes)):
-        if primes[i]:
+    for i, is_prime in enumerate(primes):
+        if is_prime:
             prime_count += 1
         primes[i] = prime_count
 
