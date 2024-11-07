@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# pylint: disable=C0103
 
 
 """contains isliand_perimeter function
